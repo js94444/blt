@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🤖 MISO AI 플랫폼 사용 가이드</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 네비게이션 사이드바 -->
+    <nav class="sidebar">
+        <div class="sidebar-header">
+            <h2>🤖 MISO AI</h2>
+            <p>사용 가이드</p>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#intro" data-section="intro">🏠 미소AI 소개</a></li>
+            <li><a href="#access" data-section="access">🔐 시스템 접속</a></li>
+            <li><a href="#cost" data-section="cost">💰 운영비 절감 가이드</a></li>
+            <li><a href="#questions" data-section="questions">❓ 질문 품질 제고</a></li>
+            <li><a href="#departments" data-section="departments">🏢 부서별 활용 사례</a></li>
+            <li><a href="#business" data-section="business">💼 업무 프로세스 개선</a></li>
+            <li><a href="#security" data-section="security">🛡️ 보안 및 준수사항</a></li>
+            <li><a href="#faq" data-section="faq">🙋‍♀️ 자주 묻는 질문</a></li>
+        </ul>
+    </nav>
+
+    <!-- 메인 콘텐츠 -->
+    <main class="main-content">
+        <!-- 헤더 -->
+        <header class="header">
+            <h1>🤖 MISO AI 플랫폼 사용 가이드</h1>
+            <p class="subtitle">운영비 절감과 질문 품질 제고를 통한 효율적인 AI 활용 가이드</p>
+        </header>
+
+        <!-- 미소AI 소개 섹션 -->
+        <section id="intro" class="content-section active">
+            <div class="section-header">
+                <h2>🏠 미소AI</h2>
+                <p>MISO에서 제공하는 채팅 형식의 GenAI 서비스입니다</p>
+            </div>
+            
+            <div class="miso-intro">
+                <div class="intro-main">
+                    <div class="intro-card primary">
+                        <div class="card-icon">🛡️</div>
+                        <h3>안전한 환경에서 구동</h3>
+                        <p>미소AI는 안전한 환경에서 구동되는 채팅 형식의 GenAI 서비스입니다. 따라서 외부 GenAI 서비스를 사용시 불편하였던 <strong>대외비 관련 걱정 없이 안심하고 사용</strong>하실 수 있습니다.</p>
+                    </div>
+
+                    <div class="intro-card secondary">
+                        <div class="card-icon">📚</div>
+                        <h3>사내 지식 기반 답변</h3>
+                        <p>미소AI는 담당자가 미리 세팅한 <strong>다양한 사내 지식들(전결규정, 복리후생규정, 업무규정집 등)</strong>을 기반으로 답변을 합니다.</p>
+                    </div>
+                </div>
+
+                <div class="workflow-section">
+                    <h3>💡 기존 업무 vs 미소AI 활용</h3>
+                    <div class="comparison-grid">
+                        <div class="comparison-card before">
+                            <h4>❌ 기존 방식</h4>
+                            <ol>
+                                <li>여러 PDF 문서들을 찾기</li>
+                                <li>문서를 열고 검색하기</li>
+                                <li>원하는 정보가 없으면 다른 문서 찾기</li>
+                                <li>반복적인 검색 과정</li>
+                            </ol>
+                        </div>
+                        
+                        <div class="arrow-divider">→</div>
+                        
+                        <div class="comparison-card after">
+                            <h4>✅ 미소AI 활용</h4>
+                            <ol>
+                                <li>나의 상황을 설명</li>
+                                <li>미소AI에게 답변 요청</li>
+                                <li>가장 적절한 문서의 내용을 찾아줌</li>
+                                <li>즉시 정확한 답변 획득</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="knowledge-search-section">
+                <h3>🔍 사내 지식 검색</h3>
+                <p class="section-description">미소 AI 담당자가 미리 등록해둔 사내 지식을 참조하여서 미소 AI가 답변합니다.</p>
+                
+                <div class="example-case">
+                    <div class="example-header">
+                        <h4>💼 활용 예시: 전결 규정 문의</h4>
+                    </div>
+                    <div class="example-content">
+                        <div class="example-step">
+                            <div class="step-icon">1️⃣</div>
+                            <div class="step-text">
+                                <strong>상황 설명:</strong> 사내의 전결 규정이 미소AI에 등록된 경우
+                            </div>
+                        </div>
+                        <div class="example-step">
+                            <div class="step-icon">2️⃣</div>
+                            <div class="step-text">
+                                <strong>질문 방법:</strong> 나의 상황을 채팅창에 설명한 뒤 어떤 절차로 결재를 올려야 하는지 질문
+                            </div>
+                        </div>
+                        <div class="example-step">
+                            <div class="step-icon">3️⃣</div>
+                            <div class="step-text">
+                                <strong>AI 답변:</strong> 미소AI가 사내 전결 규정에 근거하여 정확한 답변 제공
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="key-benefits">
+                <h3>⭐ 미소AI 핵심 장점</h3>
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <div class="benefit-icon">🔒</div>
+                        <h4>보안성</h4>
+                        <p>대외비 걱정 없는<br>안전한 환경</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">⚡</div>
+                        <h4>효율성</h4>
+                        <p>즉시 정확한<br>답변 제공</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">📖</div>
+                        <h4>정확성</h4>
+                        <p>사내 규정 기반<br>신뢰할 수 있는 정보</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">🎯</div>
+                        <h4>편의성</h4>
+                        <p>문서 검색 없이<br>채팅으로 해결</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="getting-started">
+                <h3>🚀 미소AI 시작하기</h3>
+                <p>이제 다음 섹션들을 통해 미소AI를 효과적으로 활용하는 방법을 알아보세요!</p>
+                <div class="next-steps">
+                    <a href="#access" class="next-step-btn" onclick="document.querySelector('[data-section=access]').click()">
+                        🔐 시스템 접속 방법 보기
+                    </a>
+                    <a href="#questions" class="next-step-btn" onclick="document.querySelector('[data-section=questions]').click()">
+                        ❓ 효과적인 질문 방법 보기
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 시스템 접속 섹션 -->
+        <section id="access" class="content-section">
+            <div class="section-header">
+                <h2>🔐 시스템 접속</h2>
+                <p>MISO AI 플랫폼 접속 방법 안내</p>
+            </div>
+
+            <div class="access-steps">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>🔑 로그인</h3>
+                        <p>계정을 통해 로그인</p>
+                        <div class="step-detail">
+                            <strong>접속 URL:</strong> <code>https://gsenergy.miso.gs/</code><br>
+                            <strong>인증 방식:</strong> 회사 이메일 + 비밀번호
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>📱 모바일 접속</h3>
+                        <p>스마트폰에서도 동일한 계정으로 접속 가능</p>
+                        <div class="step-detail">
+                            <strong>모바일 웹:</strong> 동일 URL 사용<br>
+                            <strong>전용 앱:</strong> 개발 중
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="access-features">
+                <h3>💡 주요 기능 소개</h3>
+                <div class="feature-grid">
+                    <div class="mini-feature">
+                        <strong>💬 대화형 AI:</strong> 질문-답변 형태의 자연스러운 소통
+                    </div>
+                    <div class="mini-feature">
+                        <strong>📄 문서 분석:</strong> PDF, 워드, 엑셀 파일 업로드 및 분석
+                    </div>
+                    <div class="mini-feature">
+                        <strong>📊 데이터 시각화:</strong> 차트 및 그래프 자동 생성
+                    </div>
+                    <div class="mini-feature">
+                        <strong>💾 히스토리 관리:</strong> 이전 대화 내역 저장 및 재사용
+                    </div>
+                </div>
+            </div>
+
+            <div class="access-troubleshoot">
+                <h3>🔧 접속 문제 해결</h3>
+                <ul>
+                    <li><strong>로그인 실패:</strong> 기술혁신팀으로 문의</li>
+                    <li><strong>권한 오류:</strong> 기술혁신팀에 사용 권한 신청</li>
+                    <li><strong>성능 저하:</strong> 브라우저 캐시 삭제 후 재접속</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 운영비 절감 가이드 섹션 -->
+        <section id="cost" class="content-section">
+            <div class="section-header">
+                <h2>💰 운영비 절감 가이드</h2>
+                <p>토큰 사용량 최적화를 통한 효과적인 비용 관리 전략</p>
+            </div>
+
+            <div class="cost-alert">
+                <div class="alert-icon">📊</div>
+                <div class="alert-content">
+                    <h3>MISO AI 비용 구조</h3>
+                    <p>질문(입력 토큰)과 답변(출력 토큰)의 길이에 따라 <strong>토큰 단위로 과금</strong>됩니다. 효율적인 질문으로 월별 운영비를 최대 <strong>60% 절감</strong> 가능합니다.</p>
+                </div>
+            </div>
+
+            <div class="cost-simulation">
+                <h3>💡 비용 절감 시뮬레이션</h3>
+                <div class="simulation-grid">
+                    <div class="simulation-card bad">
+                        <h4>❌ 비효율적 사용</h4>
+                        <div class="usage-example">
+                            <p><strong>질문 1:</strong> "보고서 써줘"</p>
+                            <p><strong>질문 2:</strong> "형식도 알려줘"</p>
+                            <p><strong>질문 3:</strong> "더 자세히 써줘"</p>
+                        </div>
+                        <div class="cost-result">
+                            <span class="cost-amount">월 예상 비용: ₩850,000</span>
+                            <span class="cost-reason">(3회 반복 × 높은 토큰 사용량)</span>
+                        </div>
+                    </div>
+                    
+                    <div class="simulation-card good">
+                        <h4>✅ 효율적 사용</h4>
+                        <div class="usage-example">
+                            <p><strong>한 번의 질문:</strong> "마케팅 성과 분석을 위한 10페이지 분량의 월간 보고서를 표준 비즈니스 형식으로 작성해 주세요. 포함 내용: 1) 매출 현황 2) 고객 분석 3) 향후 전략"</p>
+                        </div>
+                        <div class="cost-result success">
+                            <span class="cost-amount">월 예상 비용: ₩340,000</span>
+                            <span class="cost-reason">(1회 완성형 질문 × 최적화된 토큰 사용)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="savings-highlight">
+                    <strong>💰 절약 효과: ₩510,000/월 (60% 절감)</strong>
+                </div>
+            </div>
+
+            <div class="cost-breakdown">
+                <div class="cost-item">
+                    <h4>🔸 입력 토큰</h4>
+                    <p>사용자가 입력하는 텍스트의 길이에 따라 계산</p>
+                </div>
+                <div class="cost-item">
+                    <h4>🔸 출력 토큰</h4>
+                    <p>AI가 생성하는 응답의 길이에 따라 계산</p>
+                </div>
+                <div class="cost-item">
+                    <h4>🔸 특수 기능</h4>
+                    <p>이미지 분석, 파일 업로드 등 추가 기능 사용 시</p>
+                </div>
+            </div>
+
+            <div class="cost-tips">
+                <h3>💡 비용 절약 팁</h3>
+                <div class="tips-grid">
+                    <div class="tip-card">
+                        <span class="tip-number">1</span>
+                        <p><strong>질문을 하나로 통합</strong><br>여러 번 나누어 묻지 말고 한 번에 완성된 질문을 하세요</p>
+                    </div>
+                    <div class="tip-card">
+                        <span class="tip-number">2</span>
+                        <p><strong>불필요한 설명 제외</strong><br>핵심적인 내용만 간결하게 작성하세요</p>
+                    </div>
+                    <div class="tip-card">
+                        <span class="tip-number">3</span>
+                        <p><strong>목적에 맞는 활용</strong><br>업무와 직접 관련된 내용에만 사용하세요</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 질문 품질 제고 섹션 -->
+        <section id="questions" class="content-section">
+            <div class="section-header">
+                <h2>❓ 질문 품질 제고</h2>
+                <p>AI로부터 최고의 답변을 얻는 방법을 알아보세요</p>
+            </div>
+
+            <div class="do-dont-container">
+                <div class="do-section">
+                    <h3>✅ 이렇게 하세요</h3>
+                    <div class="example-card good">
+                        <h4>좋은 예시</h4>
+                        <p>"마케팅 보고서를 작성해야 합니다. 2024년 3분기 매출 데이터를 바탕으로 다음 분기 전략을 포함한 10페이지 분량의 보고서 구조와 주요 내용을 제안해 주세요. 타겟 고객층은 30-40대이고, 주력 제품은 생활용품입니다."</p>
+                    </div>
+                    <ul class="guidelines">
+                        <li>🎯 <strong>구체적인 목적</strong> 명시</li>
+                        <li>📊 <strong>필요한 정보</strong> 모두 포함</li>
+                        <li>📏 <strong>원하는 결과물</strong> 명확히 설명</li>
+                        <li>🔍 <strong>배경 정보</strong> 충분히 제공</li>
+                    </ul>
+                </div>
+
+                <div class="dont-section">
+                    <h3>❌ 피해야 할 것</h3>
+                    <div class="example-card bad">
+                        <h4>나쁜 예시</h4>
+                        <p>"보고서 써줘"<br>
+                        "이거 어떻게 해?"<br>
+                        "좋은 아이디어 있어?"</p>
+                    </div>
+                    <ul class="guidelines">
+                        <li>❌ 모호하고 <strong>애매한 표현</strong></li>
+                        <li>❌ <strong>정보 부족</strong>으로 인한 추가 질문 필요</li>
+                        <li>❌ <strong>여러 번 나누어</strong> 질문하기</li>
+                        <li>❌ <strong>목적 없는</strong> 일반적인 질문</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="question-template">
+                <h3>📝 질문 템플릿</h3>
+                <div class="template-box">
+                    <p><strong>[배경 정보]</strong> + <strong>[구체적 요청]</strong> + <strong>[원하는 결과물]</strong> + <strong>[추가 조건]</strong></p>
+                    <div class="template-example">
+                        <p><strong>예시:</strong><br>
+                        <span class="highlight">[배경]</span> 저희 회사는 중소기업용 소프트웨어를 개발합니다.<br>
+                        <span class="highlight">[요청]</span> 고객 만족도 조사 설문지를 만들어 주세요.<br>
+                        <span class="highlight">[결과물]</span> 10-15개 문항으로 구성된 온라인 설문 형태로<br>
+                        <span class="highlight">[조건]</span> 응답 시간은 5분 이내, 객관식과 주관식 혼합</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 부서별 활용 사례 섹션 -->
+        <section id="departments" class="content-section">
+            <div class="section-header">
+                <h2>🏢 부서별 활용 사례</h2>
+                <p>각 부서의 특성에 맞는 MISO AI 활용 가이드</p>
+            </div>
+
+            <div class="department-tabs">
+                <button class="dept-tab active" onclick="showDepartment('finance')">💼 재무/기획</button>
+                <button class="dept-tab" onclick="showDepartment('hr')">👥 인사</button>
+                <button class="dept-tab" onclick="showDepartment('it')">💻 IT</button>
+                <button class="dept-tab" onclick="showDepartment('safety')">🦺 안전팀</button>
+                <button class="dept-tab" onclick="showDepartment('partnership')">🤝 대외협력팀</button>
+                <button class="dept-tab" onclick="showDepartment('operations')">🔧 운영</button>
+            </div>
+
+            <div class="department-content">
+                <div id="finance-dept" class="dept-section active">
+                    <h3>💼 재무/기획팀</h3>
+                    <div class="dept-use-cases">
+                        <div class="use-case">
+                            <h4>📊 재무제표 분석</h4>
+                            <div class="prompt-template">
+                                <strong>프롬프트 템플릿:</strong><br>
+                                "첨부된 재무제표를 바탕으로 다음 항목을 분석해 주세요: 1) 유동성 지표 2) 수익성 지표 3) 전년 대비 개선점 4) 향후 3개월 재무 전략 제안. 경영진 보고용 5페이지 분량으로 작성"
+                            </div>
+                            <div class="expected-savings">예상 토큰 절약: 40% (기존 다중 질문 대비)</div>
+                        </div>
+                        
+                        <div class="use-case">
+                            <h4>💹 투자 분석 보고서</h4>
+                            <div class="prompt-template">
+                                <strong>프롬프트 템플릿:</strong><br>
+                                "투자안건 [프로젝트명]에 대한 투자분석 보고서를 작성해 주세요. 투자규모: [금액], 예상 ROI: [%], 회수기간: [년]. 포함사항: 리스크 분석, 현금흐름 예측, 경영진 의사결정을 위한 권고사항"
+                            </div>
+                            <div class="expected-savings">예상 토큰 절약: 35%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="hr-dept" class="dept-section">
+                    <h3>👥 인사팀</h3>
+                    <div class="dept-use-cases">
+                        <div class="use-case">
+                            <h4>📝 채용 공고 작성</h4>
+                            <div class="prompt-template">
+                                <strong>프롬프트 템플릿:</strong><br>
+                                "[직무명] 채용공고를 작성해 주세요. 경력: [년수], 주요업무: [업무내용], 우대사항: [기술/경험]. 회사 브랜드 이미지를 고려한 매력적인 문구와 지원자가 관심을 가질만한 복리후생 정보 포함"
+                            </div>
+                            <div class="expected-savings">예상 토큰 절약: 50%</div>
+                        </div>
+                        
+                        <div class="use-case">
+                            <h4>📋 성과평가 분석</h4>
+                            <div class="prompt-template">
+                                <strong>프롬프트 템플릿:</strong><br>
+                                "첨부된 성과평가 데이터를 분석하여 다음을 도출해 주세요: 1) 부서별 성과 순위 2) 개선이 필요한 영역 3) 우수 직원 특성 분석 4) 차년도 성과관리 개선 방안. 임원진 보고용 형식으로 작성"
+                            </div>
+                            <div class="expected-savings">예상 토큰 절약: 45%</div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="it-dept" class="dept-section">
+                    <h3>💻 IT팀</h3>
+                    <div class="dept-use-cases">
+                        <div class="use-case">
+                            <h4>🔧 시스템 장애 분석</h4>
+                            <div class="prompt-template">
+                                <strong>프롬프트 템플릿:</strong><br>
+                                "시스템 장애 보고서를 작성해 주세요. 장애시간: [시작~종료], 영향범위: [시스템/사용자], 원인: [기술적 원인]. 포함사항: 장애 타임라인, 근본원인 분석, 재발방지 대책, 향후 모니터링 계획"
+                            </div>
+                            <div class="expected-savings">예상 토큰 절약: 38%</div>
+                        </div>
+                        
+                        <div class="use-case">
+                            <h4>📋 기술문서 작성</h4>
+                            <div class="prompt-template">
+                                <strong>프롬프트 템플릿:</strong><br>
+                                "[시스템/API명] 기술문서를 작성해 주세요. 대상독자: [개발자/운영자], 포함내용: 1) 시스템 개요 2) 설치/설정 가이드 3) API 명세 4) 트러블슈팅 가이드 5) FAQ. 신규 개발자도 이해할 수 있는 수준으로"
+                            </div>
+                            <div class="expected-savings">예상 토큰 절약: 48%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="safety-dept" class="dept-section">
+                    <h3>🦺 안전팀</h3>
+                    <div class="dept-use-cases">
+                        <div class="use-case">
+                            <h4>🛡️ 안전사고 분석 보고서</h4>
+                            <div class="prompt-template">
+                                <strong>프롬프트 템플릿:</strong><br>
+                                "안전사고 분석 보고서를 작성해 주세요. 사고일시: [날짜/시간], 발생장소: [구체적 위치], 사고유형: [추락/화재/충돌 등]. 포함사항: 1) 사고 경위 및 원인 분석 2) 피해 규모 및 손실 3) 근본원인 분석(5-Why) 4) 재발방지 대책 5) 유사사고 예방 가이드라인"
+                            </div>
+                            <div class="expected-savings">예상 토큰 절약: 52%</div>
+                        </div>
+                        
+                        <div class="use-case">
+                            <h4>📋 안전교육 매뉴얼 작성</h4>
+                            <div class="prompt-template">
+                                <strong>프롬프트 템플릿:</strong><br>
+                                "[작업장/부서명] 안전교육 매뉴얼을 작성해 주세요. 대상: [신입/기존직원], 위험요소: [화학물질/고소작업/중장비 등]. 포함내용: 1) 주요 위험요소 및 안전수칙 2) 개인보호구 착용법 3) 비상상황 대응절차 4) 안전점검 체크리스트 5) 실습 및 평가 방법"
+                            </div>
+                            <div class="expected-savings">예상 토큰 절약: 45%</div>
+                        </div>
+
+                        <div class="use-case">
+                            <h4>🔍 안전점검 체크리스트</h4>
+                            <div class="prompt-template">
+                                <strong>프롬프트 템플릿:</strong><br>
+                                "[시설/장비명] 일일 안전점검 체크리스트를 작성해 주세요. 점검주기: [일일/주간/월간], 위험등급: [상/중/하]. 포함사항: 1) 점검항목별 세부기준 2) 이상징후 판별법 3) 조치방법 및 보고체계 4) 점검자 서명란 5) 관련 법령 및 기준"
+                            </div>
+                            <div class="expected-savings">예상 토큰 절약: 38%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="partnership-dept" class="dept-section">
+                    <h3>🤝 대외협력팀 (구매/CR파트)</h3>
+                    <div class="dept-use-cases">
+                        <div class="use-case">
+                            <h4>📊 공급업체 평가 보고서</h4>
+                            <div class="prompt-template">
+                                <strong>프롬프트 템플릿:</strong><br>
+                                "[공급업체명] 종합 평가 보고서를 작성해 주세요. 평가분야: 품질/가격/납기/서비스. 첨부자료: 과거 거래실적, 품질데이터, 재무현황. 포함사항: 1) 항목별 평가점수 및 근거 2) 경쟁업체 대비 우위점 3) 리스크 요소 및 대응방안 4) 장기 파트너십 가능성 5) 최종 추천의견"
+                            </div>
+                            <div class="expected-savings">예상 토큰 절약: 47%</div>
+                        </div>
+                        
+                        <div class="use-case">
+                            <h4>💰 구매 비용 절감 분석</h4>
+                            <div class="prompt-template">
+                                <strong>프롬프트 템플릿:</strong><br>
+                                "[품목/서비스명] 구매 비용 절감 방안을 분석해 주세요. 현재 구매단가: [금액], 연간 구매량: [수량]. 분석내용: 1) 시장가격 동향 및 벤치마킹 2) 대체품목 검토 3) 수량 협상 여지 4) 장기계약 할인 가능성 5) 예상 절감액 및 ROI"
+                            </div>
+                            <div class="expected-savings">예상 토큰 절약: 43%</div>
+                        </div>
+
+                        <div class="use-case">
+                            <h4>🌱 ESG 공급망 관리</h4>
+                            <div class="prompt-template">
+                                <strong>프롬프트 템플릿:</strong><br>
+                                "ESG 관점의 공급망 관리 계획을 수립해 주세요. 대상: [주요 공급업체 10개사], 평가영역: 환경/사회/지배구조. 포함내용: 1) ESG 평가 기준 및 배점 2) 공급업체별 현황 분석 3) 개선 요구사항 및 지원방안 4) 단계별 실행 로드맵 5) 성과측정 지표(KPI)"
+                            </div>
+                            <div class="expected-savings">예상 토큰 절약: 49%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="operations-dept" class="dept-section">
+                    <h3>🔧 운영팀</h3>
+                    <div class="dept-use-cases">
+                        <div class="use-case">
+                            <h4>📈 운영 효율성 분석</h4>
+                            <div class="prompt-template">
+                                <strong>프롬프트 템플릿:</strong><br>
+                                "첨부된 운영 데이터를 분석하여 효율성 개선방안을 제시해 주세요: 1) 현재 운영 현황 2) 병목구간 식별 3) 개선 우선순위 4) 예상 효과 및 투자비용 5) 단계별 실행계획"
+                            </div>
+                            <div class="expected-savings">예상 토큰 절약: 47%</div>
+                        </div>
+                        
+                        <div class="use-case">
+                            <h4>📋 프로세스 표준화</h4>
+                            <div class="prompt-template">
+                                <strong>프롬프트 템플릿:</strong><br>
+                                "[업무프로세스명] 표준화 문서를 작성해 주세요. 포함내용: 1) 현재 프로세스 분석 2) 표준 프로세스 정의 3) 단계별 담당자 및 소요시간 4) 품질관리 체크포인트 5) 교육 가이드"
+                            </div>
+                            <div class="expected-savings">예상 토큰 절약: 41%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dept-best-practice">
+                <h3>🎯 부서별 공통 베스트 프랙티스</h3>
+                <div class="best-practice-grid">
+                    <div class="practice-item">
+                        <strong>📚 템플릿 공유:</strong> 부서 내 자주 사용하는 프롬프트를 공유 폴더에 저장
+                    </div>
+                    <div class="practice-item">
+                        <strong>📊 사용량 모니터링:</strong> 월별 토큰 사용량을 추적하여 예산 관리
+                    </div>
+                    <div class="practice-item">
+                        <strong>🔄 피드백 루프:</strong> AI 답변의 품질을 평가하고 프롬프트 개선
+                    </div>
+                    <div class="practice-item">
+                        <strong>👥 노하우 공유:</strong> 효과적인 활용 사례를 팀 내 공유
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LNG터미널 업무 프로세스 개선 섹션 -->
+        <section id="business" class="content-section">
+            <div class="section-header">
+                <h2>⚡ LNG터미널 업무 프로세스 개선</h2>
+                <p>LNG터미널 장치사업 특화 AI 활용으로 운영 효율성 극대화</p>
+            </div>
+
+            <div class="business-categories">
+                <div class="category-card">
+                    <div class="category-icon">🏭</div>
+                    <h3>터미널 운영 관리</h3>
+                    <ul>
+                        <li>일일/월간 운영 보고서</li>
+                        <li>설비 가동률 분석</li>
+                        <li>하역 스케줄 최적화</li>
+                        <li>터미널 이용률 현황</li>
+                    </ul>
+                    <div class="example-usage">
+                        <strong>예시:</strong> "이번 달 터미널 가동률 데이터를 분석하여 운영 효율성 개선방안을 도출해 주세요. 베이별 이용률, 선박 대기시간, 하역 처리량을 포함한 종합 분석 요청"
+                    </div>
+                </div>
+
+                <div class="category-card">
+                    <div class="category-icon">🚢</div>
+                    <h3>선박 운항 및 물류</h3>
+                    <ul>
+                        <li>선박 스케줄 관리</li>
+                        <li>하역작업 계획</li>
+                        <li>물류 비용 분석</li>
+                        <li>항만 교통 최적화</li>
+                    </ul>
+                    <div class="example-usage">
+                        <strong>예시:</strong> "다음 주 입항 예정 LNG 선박 3척의 최적 하역 스케줄을 작성해 주세요. 각 선박 용량, 예상 작업시간, 저장탱크 여유량을 고려한 효율적인 배치계획 필요"
+                    </div>
+                </div>
+
+                <div class="category-card">
+                    <div class="category-icon">📊</div>
+                    <h3>설비 성능 분석</h3>
+                    <ul>
+                        <li>압축기/펌프 성능 진단</li>
+                        <li>저장탱크 운영 최적화</li>
+                        <li>기화기 효율성 분석</li>
+                        <li>예방정비 계획</li>
+                    </ul>
+                    <div class="example-usage">
+                        <strong>예시:</strong> "첨부된 압축기 성능 데이터를 분석하여 효율 저하 원인을 파악하고, 정비 우선순위와 예상 비용을 포함한 개선계획을 수립해 주세요"
+                    </div>
+                </div>
+
+                <div class="category-card">
+                    <div class="category-icon">🛡️</div>
+                    <h3>안전 및 환경 관리</h3>
+                    <ul>
+                        <li>안전점검 보고서</li>
+                        <li>환경영향 평가</li>
+                        <li>비상대응 시나리오</li>
+                        <li>법적 규제 준수</li>
+                    </ul>
+                    <div class="example-usage">
+                        <strong>예시:</strong> "LNG 누출 시나리오에 대한 비상대응 매뉴얼을 작성해 주세요. 누출량별 대응절차, 관련 부서 역할, 외부기관 신고체계, 복구 단계를 포함한 종합 계획"
+                    </div>
+                </div>
+
+                <div class="category-card">
+                    <div class="category-icon">💰</div>
+                    <h3>경영 및 비용 관리</h3>
+                    <ul>
+                        <li>운영비용 분석</li>
+                        <li>에너지 효율성 평가</li>
+                        <li>투자수익률 계산</li>
+                        <li>예산 계획 수립</li>
+                    </ul>
+                    <div class="example-usage">
+                        <strong>예시:</strong> "분기별 터미널 운영비용을 분석하여 비용 절감 방안을 제시해 주세요. 전력비, 인건비, 정비비용, 연료비를 항목별로 벤치마킹하고 개선 포인트 도출"
+                    </div>
+                </div>
+
+                <div class="category-card">
+                    <div class="category-icon">📋</div>
+                    <h3>기술문서 및 매뉴얼</h3>
+                    <ul>
+                        <li>운영 매뉴얼 작성</li>
+                        <li>정비 절차서</li>
+                        <li>기술 보고서</li>
+                        <li>교육 자료 개발</li>
+                    </ul>
+                    <div class="example-usage">
+                        <strong>예시:</strong> "신입 운전원을 위한 LNG 저장탱크 운영 교육 매뉴얼을 작성해 주세요. 기본 원리, 운전 절차, 주의사항, 비상상황 대응을 단계별로 설명하되 이해하기 쉽게 구성"
+                    </div>
+                </div>
+            </div>
+
+            <div class="business-best-practices">
+                <h3>🎯 LNG터미널 특화 활용 모범 사례</h3>
+                <div class="best-practice-item">
+                    <span class="practice-number">1</span>
+                    <div class="practice-content">
+                        <h4>설비 제원 정보 포함</h4>
+                        <p>저장탱크 용량, 압축기 사양, 기화기 능력 등 구체적인 설비 정보를 함께 제공하세요</p>
+                    </div>
+                </div>
+                <div class="best-practice-item">
+                    <span class="practice-number">2</span>
+                    <div class="practice-content">
+                        <h4>운영 조건 명시</h4>
+                        <p>온도, 압력, 유량 등 현재 운영 조건과 목표 수치를 구체적으로 제시하세요</p>
+                    </div>
+                </div>
+                <div class="best-practice-item">
+                    <span class="practice-number">3</span>
+                    <div class="practice-content">
+                        <h4>법규 및 안전기준 언급</h4>
+                        <p>관련 법령, 안전기준, 회사 규정 등을 고려하도록 요청하여 더 정확한 답변을 받으세요</p>
+                    </div>
+                </div>
+                <div class="best-practice-item">
+                    <span class="practice-number">4</span>
+                    <div class="practice-content">
+                        <h4>데이터 첨부 활용</h4>
+                        <p>운전 로그, 성능 데이터, 점검 기록 등을 첨부하여 데이터 기반의 분석을 요청하세요</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 보안 및 준수사항 섹션 -->
+        <section id="security" class="content-section">
+            <div class="section-header">
+                <h2>🛡️ 보안 및 준수사항</h2>
+                <p>MISO AI 사용 시 반드시 준수해야 할 보안 가이드라인</p>
+            </div>
+
+            <div class="warning-alert">
+                <div class="warning-icon">🛡️</div>
+                <h3>MISO AI 보안 정책</h3>
+                <p>기밀정보 보호와 컴플라이언스 준수를 위한 필수 가이드라인</p>
+            </div>
+
+            <div class="security-levels">
+                <h3>🔒 정보 보안 등급별 가이드</h3>
+                <div class="security-level-grid">
+                    <div class="security-card level-1">
+                        <h4>🔴 Level 1: 절대 금지</h4>
+                        <ul>
+                            <li>고객 개인정보 (주민번호, 전화번호, 주소 등)</li>
+                            <li>금융거래 정보 (계좌번호, 카드번호, 거래내역)</li>
+                            <li>인사정보 (급여, 평가, 징계 등)</li>
+                            <li>영업기밀 (고객리스트, 계약조건, 가격정보)</li>
+                            <li>기술기밀 (소스코드, 설계도, 특허정보)</li>
+                        </ul>
+                        <div class="violation-warning">
+                            <strong>⚠️ 위반 시:</strong> 즉시 사용 정지 및 징계 조치
+                        </div>
+                    </div>
+
+                    <div class="security-card level-2">
+                        <h4>🟡 Level 2: 주의 필요</h4>
+                        <ul>
+                            <li>내부 정책 및 프로세스 (일반화하여 질문)</li>
+                            <li>조직구조 정보 (부서명, 직급은 가능)</li>
+                            <li>일반적인 업무 데이터 (개인식별 불가한 통계)</li>
+                            <li>공개된 제품/서비스 정보</li>
+                        </ul>
+                        <div class="caution-note">
+                            <strong>💡 팁:</strong> 구체적인 수치나 이름 대신 일반적인 형태로 질문
+                        </div>
+                    </div>
+
+                    <div class="security-card level-3">
+                        <h4>🟢 Level 3: 사용 가능</h4>
+                        <ul>
+                            <li>일반적인 업무 방법론</li>
+                            <li>문서 작성 형식 및 템플릿</li>
+                            <li>공개된 업계 정보 기반 분석</li>
+                            <li>교육 및 학습 자료</li>
+                            <li>업무 효율성 개선 아이디어</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="caution-grid">
+                <div class="caution-card critical">
+                    <div class="caution-icon">🔒</div>
+                    <h4>기밀 정보 보호</h4>
+                    <ul>
+                        <li>고객 개인정보 입력 금지</li>
+                        <li>회사 기밀 데이터 업로드 금지</li>
+                        <li>내부 보안 정보 공유 금지</li>
+                        <li>계약서 상 기밀 조항 관련 내용 제외</li>
+                    </ul>
+                </div>
+
+                <div class="caution-card important">
+                    <div class="caution-icon">💰</div>
+                    <h4>비용 관리</h4>
+                    <ul>
+                        <li>불필요한 반복 질문 피하기</li>
+                        <li>개인적 용도 사용 금지</li>
+                        <li>업무와 무관한 질문 금지</li>
+                        <li>과도한 세부사항 요청 자제</li>
+                    </ul>
+                </div>
+
+                <div class="caution-card moderate">
+                    <div class="caution-icon">✅</div>
+                    <h4>결과물 검증</h4>
+                    <ul>
+                        <li>AI 답변 내용 검토 필수</li>
+                        <li>사실 확인 및 검증 필요</li>
+                        <li>법적/규정 준수 사항 재확인</li>
+                        <li>최종 의사결정은 인간이 판단</li>
+                    </ul>
+                </div>
+
+                <div class="caution-card info">
+                    <div class="caution-icon">🤝</div>
+                    <h4>적절한 사용</h4>
+                    <ul>
+                        <li>보조 도구로서 활용</li>
+                        <li>창의적 아이디어 발굴에 집중</li>
+                        <li>효율성 향상 목적으로 사용</li>
+                        <li>인간의 판단력 보완 역할</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="security-guidelines">
+                <h3>🛡️ 보안 가이드라인</h3>
+                <div class="security-item">
+                    <span class="security-level high">HIGH</span>
+                    <div class="security-content">
+                        <h4>절대 공유 금지</h4>
+                        <p>고객 정보, 재무 데이터, 인사 정보, 영업 기밀</p>
+                    </div>
+                </div>
+                <div class="security-item">
+                    <span class="security-level medium">MEDIUM</span>
+                    <div class="security-content">
+                        <h4>주의해서 사용</h4>
+                        <p>내부 프로세스, 조직 구조, 전략 계획 (일반화해서 질문)</p>
+                    </div>
+                </div>
+                <div class="security-item">
+                    <span class="security-level low">LOW</span>
+                    <div class="security-content">
+                        <h4>사용 가능</h4>
+                        <p>일반적인 업무 방법론, 문서 작성 형식, 공개된 정보 기반 분석</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ 섹션 -->
+        <section id="faq" class="content-section">
+            <div class="section-header">
+                <h2>🙋‍♀️ 자주 묻는 질문</h2>
+                <p>MISO AI 사용 중 자주 발생하는 궁금증들</p>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span class="faq-icon">Q</span>
+                        <h4>질문을 여러 번 나누어서 하면 안 되나요?</h4>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>비용이 중복으로 발생하므로 권장하지 않습니다. 가능한 한 모든 요구사항을 하나의 질문에 포함시켜 주세요. 예를 들어 "보고서를 써주세요" 후에 "형식도 알려주세요"보다는 "A4 3페이지 분량의 마케팅 보고서를 표준 비즈니스 형식으로 작성해 주세요"가 더 효율적입니다.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span class="faq-icon">Q</span>
+                        <h4>개인적인 업무도 AI로 처리해도 되나요?</h4>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>회사 계정으로 제공되는 AI는 회사 업무에만 사용해야 합니다. 개인적인 문서 작성, 학습, 취미 관련 질문 등은 피해주세요. 업무 효율성 향상과 직접적으로 관련된 활용에 집중해 주시기 바랍니다.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span class="faq-icon">Q</span>
+                        <h4>AI가 제공한 정보를 그대로 사용해도 되나요?</h4>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>AI의 답변은 참고용으로 활용하고, 반드시 내용을 검토하고 사실 확인을 해주세요. 특히 법적 사항, 재무 정보, 기술적 세부사항 등은 전문가의 검토를 받으시기 바랍니다. AI는 보조 도구일 뿐, 최종 의사결정은 항상 인간이 해야 합니다.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span class="faq-icon">Q</span>
+                        <h4>어떤 종류의 파일을 업로드할 수 있나요?</h4>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>일반적으로 텍스트, 이미지, PDF, Excel 파일 등을 업로드할 수 있습니다. 단, 기밀 정보나 개인정보가 포함된 파일은 업로드하지 마세요. 업로드 전에 파일 내용을 점검하여 민감한 정보가 포함되어 있지 않은지 확인해 주세요.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span class="faq-icon">Q</span>
+                        <h4>비용을 아끼려면 어떻게 해야 하나요?</h4>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>
+                        1. 질문을 미리 정리하여 한 번에 완성된 요청을 하세요<br>
+                        2. 불필요한 설명이나 반복을 피하고 핵심만 간결하게 작성하세요<br>
+                        3. 명확하고 구체적인 요청으로 추가 질문을 줄이세요<br>
+                        4. 업무와 직접 관련된 내용에만 집중하세요
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span class="faq-icon">Q</span>
+                        <h4>사내 지식 검색은 어떻게 활용하나요?</h4>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>미소AI는 사내 전결규정, 복리후생규정, 업무규정집 등이 미리 등록되어 있습니다. 예를 들어 "출장비 신청 절차를 알려주세요" 또는 "연차 사용 규정이 궁금합니다"와 같이 구체적인 상황을 설명하면, 관련 규정을 찾아서 정확한 답변을 제공합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 하단 푸터 -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 MISO AI 플랫폼 사용 가이드. 운영비 절감과 질문 품질 제고를 위한 완벽 가이드</p>
+            <p class="footer-note">💡 문의사항: 기술혁신팀 [김인호, 김지상] | 📧 inho82.kim@lng-tml.com</p>
+            <p class="footer-update">최종 업데이트: 2025년 9월 | 다음 업데이트: 2025년 10월</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
